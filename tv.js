@@ -2,7 +2,7 @@
 status="";
 
 function preload(){
-loadImage("IMG_1287.jpg");
+img=loadImage("IMG_1287.jpg");
 }
 
 function setup(){
@@ -13,7 +13,7 @@ objectDetector = ml5.objectDetector('cocossd', modelLoaded);
 }
 
 function draw(){
-
+    image(img,0,0,600,620);
 }
 
 function modelLoaded(){
