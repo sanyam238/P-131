@@ -2,7 +2,7 @@ status="";
 objects = [];
 
 function preload(){
-    img=loadImage("IMG_1287.jpg");
+    img=loadImage("IMG_1290.jpg");
 }
 
 function setup(){
